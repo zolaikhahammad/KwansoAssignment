@@ -1,0 +1,69 @@
+﻿@model List<KwansoWebApp.Contracts.ViewModels.TaskViewModel>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 40%;
+        }
+
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+
+        .container {
+            padding: 2px 16px;
+        }
+    </style>
+</head>
+<body>
+    <a asp-action="CreateTasks" asp-controller="Home">Create Task</a>
+
+
+    @if (Model != null)
+    {
+        @foreach (var item in Model)
+        {
+            <div class="card">
+                <div class="container">
+                    <input type="checkbox" name="isactive" value="@item.Id">
+
+
+                    <p>@item.Name</p>
+
+                </div>
+            </div>
+        }
+    }
+    <button onclick="Delete()">Delete Selected Task</button>
+
+
+    <script>
+        function Delete(){
+            var lst=[];
+            $('input[name="isactive"]:checked').each(function() {
+           lst.push(this.value);
+
+        });
+        if(lst.length!=0){
+             $.ajax({
+            url:'@Url.Action("DeleteTask","Home")',
+            type:"Post",
+            data:{Ids:lst},
+            success:function(){
+
+            }
+
+           });
+        }
+       
+        }
+
+    </script>
+</body>
+
+</html>
+

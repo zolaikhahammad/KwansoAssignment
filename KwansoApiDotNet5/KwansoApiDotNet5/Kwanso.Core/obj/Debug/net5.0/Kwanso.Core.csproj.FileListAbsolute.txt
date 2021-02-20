@@ -1,0 +1,15 @@
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\bin\Debug\net5.0\Kwanso.Core.deps.json
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\bin\Debug\net5.0\Kwanso.Core.runtimeconfig.json
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\bin\Debug\net5.0\Kwanso.Core.runtimeconfig.dev.json
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\bin\Debug\net5.0\Kwanso.Core.dll
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\bin\Debug\net5.0\ref\Kwanso.Core.dll
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\bin\Debug\net5.0\Kwanso.Core.pdb
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\obj\Debug\net5.0\Kwanso.Core.csprojAssemblyReference.cache
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\obj\Debug\net5.0\Kwanso.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\obj\Debug\net5.0\Kwanso.Core.AssemblyInfoInputs.cache
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\obj\Debug\net5.0\Kwanso.Core.AssemblyInfo.cs
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\obj\Debug\net5.0\Kwanso.Core.csproj.CoreCompileInputs.cache
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\obj\Debug\net5.0\Kwanso.Core.dll
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\obj\Debug\net5.0\ref\Kwanso.Core.dll
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\obj\Debug\net5.0\Kwanso.Core.pdb
+C:\Users\zhammad\source\repos\KwansoApiDotNet5\Kwanso.Core\obj\Debug\net5.0\Kwanso.Core.genruntimeconfig.cache
